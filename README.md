@@ -1,6 +1,6 @@
 # bookbans
 
-**Top 10 books
+**Top 10 books**
 Kobabe, Maia        Gender Queer: A Memoir                             56
 Johnson, George M.  All Boys Aren't Blue                               38
 Morrison, Toni      The Bluest Eye                                     32
@@ -13,7 +13,7 @@ Alexie, Sherman     The Absolutely True Diary of a Part-Time Indian    21
 Andrews, Jesse      Me and Earl and the Dying Girl                     20
 
 
-**Top 10 districts
+**Top 10 districts**
 Central York School District            Pennsylvania      441
 North East Independent School District  Texas             435
 Collierville Schools                    Tennessee         327
