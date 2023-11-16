@@ -70,6 +70,7 @@ us_state_to_abbrev = {
 df_school_yr_1 = pd.read_csv("PEN_July_1_2021_June_30_2022.csv", sep=",")
 df_school_yr_2 = pd.read_csv("PEN_July_1_2022_December_31_2022.csv", sep=",")
 
+
 data = df_school_yr_1.append(df_school_yr_2)
 
 print(len(data))
@@ -91,7 +92,7 @@ print(top_10_books)
 state_ban_counts = data.groupby('State')[["Title", "District"]].count().reset_index()
 state_ban_counts["State_Abbrv"] = state_ban_counts["State"].map(us_state_to_abbrev)
 
-print(state_ban_counts)
+print(data["District"])
 
 fig = px.choropleth(state_ban_counts, 
                     locations=state_ban_counts["State_Abbrv"],  # Column containing state names
@@ -99,4 +100,6 @@ fig = px.choropleth(state_ban_counts,
                     color=state_ban_counts["District"], # Column for color scale
                     scope="usa")
 
-fig.show()
+
+
+# fig.show()

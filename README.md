@@ -1,5 +1,10 @@
 # bookbans
 
+**Unsupervised notes:** Started with all with all of the school districts in the US. Then created a binary varible for book bans and marked the districts that practiced it. 
+
+Merged in LEAID to county and then county to political leaning. This gives us school district to political leaning. Lastly, I merged in academic success as another predictor.  
+
+
 **Top 10 books**  
 Kobabe, Maia        Gender Queer: A Memoir                             56   
 Johnson, George M.  All Boys Aren't Blue                               38  
