@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>Map</title>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>2022-2023 School Year Texas School Districts. Information was collected from all 253 central appraisal districts and from the Texas Education Agency. GIS staff of the Texas Legislative Council created the school district boundaries using the 2020 TIGER/Line Shapefile as base geography and made further corrections to match the school district boundary updates and name changes for the 2022-2023 School Year. These changes include lines that are not census geography. Changes to school district boundaries may include one or all of the following types: school district annexations or de-annexations; school district consolidations, deletions or additions; boundary corrections to the Texas Legislative Council database; boundary adjustments due to more spatially accurate data involving land parcels and survey data received from a county central appraisal district.Note: The 2022-2023 School Year school districts in the council's geographic file are not the same as the districts in the Census Bureau's 2020 TIGER/Line Shapefile. School district population data published by the Texas Legislative Council using the 2021-2022 School Year school districts will not correspond with the school district population data published by the Census Bureau.This geographic data should be used as a reference for determining the boundaries of school districts. This depiction and designation of the school district boundaries do not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions.</abstract>
+            <purpose>The school districts feature class is used in the RedAppl, DistrictViewer, and other Texas Legislative Council mapping and reporting applications.</purpose>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>2022-2023 School Year School Districts</themekey>
+                <themekey>School Districts</themekey>
+                <themekey>ISDs</themekey>
+                <themekey>Common School Districts</themekey>
+                <themekey>Consolidated School Districts</themekey>
+                <themekey>2020 Census Geography</themekey>
+                <themekey>Texas</themekey>
+                <themekey>22R2397</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst/>
+        <datacred>GIS Staff of the Texas Legislative Council, Research Division, Redistricting and Data Section, 512-463-6622, https://redistricting.capitol.texas.gov/contact</datacred>
+    </idinfo>
+    <metainfo>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
