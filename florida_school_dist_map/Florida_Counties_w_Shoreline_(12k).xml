@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <title>Florida Counties with Shoreline (areas)</title>
+                <geoform>vector digital data</geoform>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Florida counties with detailed shoreline. 1:12,000 scale. </abstract>
+            <purpose>Florida counties with detailed shoreline. 1:12,000 scale. </purpose>
+        </descript>
+        <status>
+            <progress>Complete</progress>
+            <update>None planned</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-87.639226</westbc>
+                <eastbc>-79.872419</eastbc>
+                <northbc>31.042851</northbc>
+                <southbc>24.466386</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>NOAA</themekey>
+                <themekey>DLG</themekey>
+                <themekey>USGS</themekey>
+                <themekey>Municipal and Political Boundaries</themekey>
+                <themekey>Administrative</themekey>
+                <themekey>Shoreline</themekey>
+                <themekey>Counties</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>boundaries</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>DISCLAIMER (for maps)The boundaries depicted on this map document are approximate.  This map document is intended for use only at the published scale. These data are intended for informational use only and should not be considered authoritative for navigation, engineering, legal, or other site-specific purpose. FDEP does not assume any legal liability or responsibility arising from the use of this product in a manner not intended by the author.DISCLAIMER (for Web Applications)This graphical representation is provided for informational purposes and should not be considered authoritative for navigational, engineering, legal, and other uses.DISCLAIMER AND LIMITATION OF LIABILITY   (for data/metadata)WARRANTYThese data are provided without warranty of any kind, either expressed or implied.  The burden for determining fitness of use lies entirely with the user. The user is solely responsible for understanding the limitations of the data provided.LIABILITYThese data are intended for informational purposes and should not be considered authoritative for navigational, engineering, legal and other site-specific uses.  In no event shall FDEP be liable for damages of any kind including loss of anticipated profits or benefits arising out of use of or reliance on these data. </useconst>
+        <datacred>USGS</datacred>
+        <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.1.4959</native>
+    </idinfo>
+    <dataqual>
+        <lineage>
+            <procstep>
+                <procdesc>County boundaries between Martin and St. Lucie counties, and Gulf and Franklin counties updated.</procdesc>
+                <procdate>20160304</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2600 Blair Stone Rd, MS 6520</address>
+                            <city>Tallahassee</city>
+                            <state>FL</state>
+                            <postal>32399-2400</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>68</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>FL_SHORELINE_AREAS</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>NAME</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>DEP_COUNTY</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>FIPS_COUNTY</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>WATER</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Coordinates defining the features.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE_Length</attrlabl>
+                <attrdef>Length of feature in internal units.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Positive real numbers that are automatically generated.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE_Area</attrlabl>
+                <attrdef>Area of feature in internal units squared.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Positive real numbers that are automatically generated.</udom>
+                                    
+                </attrdomv>
+            </attr>
+        </detailed>
+        <overview>
+            <eaover>NAME         Textual county names in upper case
+
+DEP_COUNTY   Numeric code used in DEP's Regulatory Databases
+
+FIPS_COUNTY  County FIPS codes = ((County code * 2) - 1)
+
+
+DEP_COUNTY   NAME         FIPS_COUNTY
+----------   ----         -----------
+         1   ALACHUA                1
+         2   BAKER                  3
+         3   BAY                    5
+         4   BRADFORD               7
+         5   BREVARD                9
+         6   BROWARD               11
+         7   CALHOUN               13
+         8   CHARLOTTE             15
+         9   CITRUS                17
+        10   CLAY                  19
+        11   COLLIER               21
+        12   COLUMBIA              23
+        13   DADE                  25
+        14   DESOTO                27
+        15   DIXIE                 29
+        16   DUVAL                 31
+        17   ESCAMBIA              33
+        18   FLAGLER               35
+        19   FRANKLIN              37
+        20   GADSDEN               39
+        21   GILCHRIST             41
+        22   GLADES                43
+        23   GULF                  45
+        24   HAMILTON              47
+        25   HARDEE                49
+        26   HENDRY                51
+        27   HERNANDO              53
+        28   HIGHLANDS             55
+        29   HILLSBOROUGH          57
+        30   HOLMES                59
+        31   INDIAN RIVER          61
+        32   JACKSON               63
+        33   JEFFERSON             65
+        34   LAFAYETTE             67
+        35   LAKE                  69
+        36   LEE                   71
+        37   LEON                  73
+        38   LEVY                  75
+        39   LIBERTY               77
+        40   MADISON               79
+        41   MANATEE               81
+        42   MARION                83
+        43   MARTIN                85
+        44   MONROE                87
+        45   NASSAU                89
+        46   OKALOOSA              91
+        47   OKEECHOBEE            93
+        48   ORANGE                95
+        49   OSCEOLA               97
+        50   PALM BEACH            99
+        51   PASCO                101
+        52   PINELLAS             103
+        53   POLK                 105
+        54   PUTNAM               107
+        55   ST. JOHNS            109
+        56   ST. LUCIE            111
+        57   SANTA ROSA           113
+        58   SARASOTA             115
+        59   SEMINOLE             117
+        60   SUMTER               119
+        61   SUWANNEE             121
+        62   TAYLOR               123
+        63   UNION                125
+        64   VOLUSIA              127
+        65   WAKULLA              129
+        66   WALTON               131
+        67   WASHINGTON           133
+
+
+WATER   Enables the differentiated shading of land and water for maps
+        0 = land
+        1 = water</eaover>
+        </overview>
+    </eainfo>
+    <metainfo>
+        <metd>20181105</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>2600 Blair Stone Rd, MS 6520</address>
+                    <city>Tallahassee</city>
+                    <state>FL</state>
+                    <postal>32399-2400</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
